@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import random
 from collections import Counter
 
@@ -41,7 +35,7 @@ def generate_deck(suits, value, mydeck = None):
 print(generate_deck(suits,value),end = "\n\n")
 
 
-def poker(deck: list,cards_in_hand: int) -> str:
+def part1(deck: list,cards_in_hand: int) -> str:
     '''
     creates hands, call s show function and returns results
     # Input: 
@@ -237,4 +231,3 @@ def check_for_number_sequence(value_set_list:list) -> bool:
 set1 = ['ace hearts', 'king clubs', 'queen hearts']
 set2 = ['9 spades', 'ace diamonds', 'queen spades']
 show(set1,set2)
-
