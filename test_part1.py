@@ -1493,8 +1493,6 @@ def test_process_for_10():
 
 def test_generate_deck_doc():
     assert bool(pxt.generate_deck.__doc__),'No DocString for generate_dec'
-def test_poker_x_teen_patti_docs():
-    assert bool(pxt.poker_x_teen_patti.__doc__),'No DocString for poker_x_teen_patti'
 def test_show_docs():
     assert bool(pxt.show.__doc__),'No DocString for show'
 
@@ -1507,9 +1505,6 @@ def test_check_for_color_docs():
     assert bool(pxt.check_for_color.__doc__),'No DocString for check_for_color'
 def test_check_for_number_sequence_docs():
     assert bool(pxt.check_for_number_sequence.__doc__),'No DocString for check_for_number_sequence'
-
-def test_poker_x_teen_patti_annot():
-    assert bool(pxt.poker_x_teen_patti.__annotations__),'No Annotation for poker_x_teen_patti'
 def test_show_annot():
     assert bool(pxt.show.__annotations__),'No Annotation for show'
 
