@@ -1,6 +1,5 @@
 <h1 align="center">First Class Functions Part 1</h1>
 
-<h2 align="center"> Assignment Question </h2>
 
 ```
 vals = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace']
