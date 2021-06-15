@@ -11,15 +11,6 @@ suits = ['spades', 'clubs', 'hearts', 'diamonds']
     <img src="Assets/Poker Ranking.jpg">
   </center>
 </div>
-
-
-###  Basics (applicable to 2/3 above):
-
-1. Proper readme file - 50 (if not there then 0)
-2. Docstrings must, and it must mention what the function is doing (2, 3) - 50
-3. Write annotations for 3 - 50 pts
-4. Basics tests to ensure your code if correct (20+ combination tests (counted as 1 test) in 3, check 1/2 with a manual list of 52 cards. Overall 20 tests at minimum) - 200 pts
-5. Submit Github link with all test files and github actions in place. 
    
 <h2 align="center">Assignment Solution </h2>
 
